@@ -1,0 +1,13 @@
+{
+  "domain": "awesome_custom_component",
+  "name": "Awesome custom component",
+  "documentation": "https://github.com/oncleben31/awesome-custom-component",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": [
+    "@oncleben31"
+  ],
+  "requirements": [
+    "sampleclient"
+  ]
+}

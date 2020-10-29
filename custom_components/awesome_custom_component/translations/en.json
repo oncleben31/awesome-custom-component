@@ -1,0 +1,32 @@
+{
+    "title": "Awesome custom component",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Awesome custom component",
+                "description": "If you need help with the configuration have a look here: https://github.com/oncleben31/awesome-custom-component",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "auth": "Username/Password is wrong."
+        },
+        "abort": {
+            "single_instance_allowed": "Only a single configuration of this integration is allowed."
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "binary_sensor": "Binary sensor enabled",
+                    "sensor": "Sensor enabled",
+                    "switch": "Switch enabled"
+                }
+            }
+        }
+    }
+}
